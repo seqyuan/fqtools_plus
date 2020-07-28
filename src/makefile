@@ -2,7 +2,7 @@ tmpdir=$(dir  $(abspath $(firstword $(MAKEFILE_LIST))))
 BIN=$(tmpdir)
 gcc=/usr/bin/gcc
 ar=/usr/bin/ar
-zip=$(BIN)/speedy_gzip
+zip=$(BIN)/pigz-2.4/pigz
 install:
 	cd $(BIN)
 	$(gcc) -Wall -c yarn.c -O3
