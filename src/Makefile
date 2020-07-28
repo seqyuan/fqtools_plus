@@ -4,7 +4,6 @@ gcc=/usr/bin/gcc
 ar=/usr/bin/ar
 zip=$(BIN)/pigz-2.4/pigz
 install:
-	cd $(BIN)/src
 	$(gcc) -Wall -c yarn.c -O3
 	$(ar) cr libyarn.a yarn.o
 	$(gcc) -Wall -c hash.c  -O3
