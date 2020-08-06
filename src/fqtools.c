@@ -51,7 +51,7 @@ fqtools_plus filter [options]  <input fq1.gz> <input fq2.gz> <adapter_r1> <adapt
     --trim  \n\
 [example]\n\
 fqtools_plus filter [options] test_R1.fq.gz test_R2.fq.gz test_R1.adapter.txt.gz test_R2.adapter.txt.gz test_R1.clean.fq.gz test_R2.clean.fq.gz \n\
-fqtools_plus filter [options] --adapt1 GATCGGAAGAGCACACGTCTGAACTCCAGTCAC --adapt2 AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA test_R1.fq.gz test_R2.fq.gz test_R1.clean.fq.gz test_R2.clean.fq.gz\n\
+fqtools_plus filter [options] --adapt1 AGATCGGAAGAGCACACGTCTGAACTCCAGTCA --adapt2 AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT test_R1.fq.gz test_R2.fq.gz test_R1.clean.fq.gz test_R2.clean.fq.gz\n\
 ";
 
 local const char* HELP2="\
@@ -61,7 +61,7 @@ filter cutadapt [options]  <input fq.gz>\n\
     --adapt       string  adapt sequence\n\
     --min_overlap INT   default 5   Minimum overlap length. If the overlap between the read and the adapter is shorter than LENGTH, the read is not modified.\n\
 [example]\n\
-fqtools_plus cutadapt --adapt1 GATCGGAAGAGCACACGTCTGTACTCCAGTCAC test_R1.fq.gz\n\
+fqtools_plus cutadapt --adapt1 AGATCGGAAGAGCACACGTCTGAACTCCAGTCA test_R1.fq.gz\n\
 ";
 
 

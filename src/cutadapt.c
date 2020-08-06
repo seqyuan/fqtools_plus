@@ -248,7 +248,7 @@ void cutadapt_main(const char* fq1, char* adapter_seq, int min_overlap){
 
 /*
 int main(){
-	char* fq1="/annoroad/data1/bioinfo/PROJECT/RD/Cooperation/Hic/ngs_bioinfo/hic-13/malixiang/reseach/fqtools/E-1_R1.fq.gz";
+	char* fq1="/hic-13/malixiang/reseach/fqtools/E-1_R1.fq.gz";
 	char* adapter = "GATCGGAAGAGCACACGTCTGAACTCCAGTCAC";
 	int min_overlap= 5 ;
 	cutadapt_main(fq1,adapter,min_overlap);
