@@ -10,7 +10,7 @@
 Usage:
 fqtools_plus filter [options]  <input fq1.gz> <input fq2.gz> <adapter_r1> <adapter_r2> <out clean fq1.gz> <out clean fq2.gz> 
 [options]
-    --c       INT     cut sequence(截取片段长度), default [0 not cut sequence]
+    --c       INT     cut sequence length, default [0 not cut sequence]
     --start   INT     start site(起始位点，从0开始), default [0]
     --q       INT     cut data cutoff(截取数据量大小), default [0 not cut data]
     --ql      INT     base quality lower limit, default [19]
